@@ -3,178 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reverbrix - Selective Noise Cancellation</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="js/index.js"></script>
+
+    <title>Homepage</title>
 </head>
 <body>
-    <header class="header">
-        <div class="logo-container">
-            <img src="logo.png" alt="Reverbrix Logo" class="logo">
-            <h1>Reverbrix</h1>
-            <p class="slogan">Selective Noise Cancellation for a World That Listens</p>
+    <!-- Header Section -->
+    <header class="main-header">
+        <div class="container">
+            <a href="#" class="logo">Reverbrix</a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#get-started" class="cta-button">Get Started</a>
         </div>
-        <nav class="nav">
-            <a href="#innovation">Innovation</a>
-            <a href="#impact">Impact</a>
-            <a href="#team">Team</a>
-            <a href="#how-we-got-here">How We Got Here</a>
-            <a href="#vision">Vision</a>
-            <a href="#how-we-make-it-happen">How We Make it Happen</a>
-        </nav>
     </header>
 
-    <section id="innovation" class="section">
-        <h2>Meet Reverbrix!</h2>
-        <p>
-            Reverbrix is not just another pair of headphones: it’s an innovative solution addressing real-world challenges.
-            Created for individuals with auditory processing issues like Misophonia, ADHD, or hearing loss, Reverbrix uses
-            selective active noise cancellation to target specific sounds that trigger discomfort or distraction, while still
-            allowing important sounds through.
-        </p>
-        <p>
-            But that’s not all: Reverbrix also features Bluetooth connectivity, so it doubles as a high-quality wireless headphone for regular listening. Whether you’re filtering out distractions or enjoying your favorite playlist, Reverbrix adapts to your needs.
-        </p>
-        <p>
-            Imagine being able to block out the clatter of a noisy cafeteria while hearing your teacher’s instructions clearly, or filtering out triggering sounds without feeling isolated. Reverbrix combines cutting-edge machine learning, selective noise cancellation, and a proprietary app to create a personalized, accessible, and stylish auditory experience.
-        </p>
-        <p>
-            Reverbrix is our answer to a pressing global need, and we believe it has the potential to improve the lives of millions.
-        </p>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Reverbrix</h1>
+            <p>It's more than just headphones. Join us and see the difference.</p>
+            <a href="#learn-more" class="cta-button">Learn More</a>
+        </div>
     </section>
-
-    <section id="impact" class="section">
-        <h2>Why Reverbrix Matters</h2>
-        <p>
-            At its core, Reverbrix is designed to help people reclaim control over their environments and focus.
-            For the 1.5 billion people globally experiencing auditory challenges, Reverbrix provides a way
-            to manage their unique needs effectively.
+    
+    <!-- Meet Reverbrix Section -->
+    <section class="features">
+        <p class="section-subtitle animate-on-scroll">
+            At its core, Reverbrix is designed to help people reclaim control over their environments and focus. For the 1.5 billion people globally experiencing auditory challenges, Reverbrix provides a way to manage their unique needs effectively.
         </p>
-        <h3>What makes Reverbrix special:</h3>
-        <table class="styled-table">
-            <tr>
-                <th>Selective Noise Cancellation</th>
-                <th>Customizable Experience</th>
-                <th>Bluetooth Connectivity</th>
-                <th>Medical + Lifestyle Use</th>
-            </tr>
-            <tr>
-                <td>
+        <div class="feature-cards">
+            <div class="feature-card animate-on-scroll">
+                <div class="feature-icon">
+                    <img src="icons/noise_cancellation.png" alt="Noise Cancellation Icon">
+                </div>
+                <h4>Selective Noise Cancellation</h4>
+                <p>
                     Unlike regular noise-canceling headphones, Reverbrix isolates specific frequencies and phrases instead of blocking everything.
-                </td>
-                <td>
+                </p>
+            </div>
+            <div class="feature-card animate-on-scroll">
+                <div class="feature-icon">
+                    <img src="icons/speaker.png" alt="Customizable Icon">
+                </div>
+                <h4>Customizable Experience</h4>
+                <p>
                     A proprietary app allows users to adjust sound filters based on their preferences and environment.
-                </td>
-                <td>
+                </p>
+            </div>
+            <div class="feature-card animate-on-scroll">
+                <div class="feature-icon">
+                    <img src="icons/bluetooth.png" alt="Bluetooth Icon">
+                </div>
+                <h4>Bluetooth Connectivity</h4>
+                <p>
                     Reverbrix works as a high-quality, wireless Bluetooth headphone for music, podcasts, and calls.
-                </td>
-                <td>
+                </p>
+            </div>
+            <div class="feature-card animate-on-scroll">
+                <div class="feature-icon">
+                    <img src="icons/lifestyle_icon.jpg" alt="Medical Use Icon">
+                </div>
+                <h4>Medical + Lifestyle Use</h4>
+                <p>
                     Designed for both medical applications and everyday needs, with a sleek, wearable design.
-                </td>
-            </tr>
-        </table>
-    </section>
-
-    <section id="team" class="section">
-        <h2>Who Are We?</h2>
-        <p>We are a team of five students from the North Carolina School of Science and Mathematics (NCSSM), passionate about tackling global challenges with innovation and creativity. We’re determined to create a product that addresses real-world problems with meaningful impact.</p>
-        <div class="team-container">
-            <div class="team-member">
-                <img src="images/aryaman.jpg" alt="Aryaman Shukla" class="team-photo">
-                <h3>Aryaman Shukla</h3>
-                <p>Aryaman Shukla is an enthusiastic and self-driven engineering and technology student with a strong background in STEM, recognized nationally for scientific research and innovation. Currently attending the North Carolina School of Science and Mathematics, his expertise spans a wide range of STEM areas, including environmental science, data analysis, machine learning, and geospatial technology. Aryaman has made significant contributions to research, such as investigating protein folding anomalies related to Alzheimer's disease and analyzing environmental impacts of rising sea levels as part of NASA-funded projects. His work includes co-authoring research papers and leading technical projects with advanced computational tools. In addition to his academic achievements, Aryaman is a skilled musician, playing clarinet at an All-State level. Passionate about environmental advocacy, he has written op-eds on climate change published in outlets like the Winston-Salem Journal and The Asian Voice News. With a proven ability to combine technical skills, creativity, and leadership, Aryaman is an asset to the team, committed to tackling real-world challenges through innovative and impactful solutions. </p>
-            </div>
-            <div class="team-member">
-                <img src="images/troy.jpg" alt="Troy Gordon" class="team-photo">
-                <h3>Troy Gordon</h3>
-                <p>Troy Gordon finds his passion in robotics to solve problems. Having been a design team on his state's-winning robotics team, Troy discovered the importance of creativity and simplicity in accomplishing challenging tasks, and how to brainstorm effective ideas and communicate them through CAD (Computer Aided Design). Having an interest in the lowest levels of computation, Troy has also busied himself learning about Assembly, Computer Architecture, and Chip Designing. Troy also loves watching movies and sometimes knits. </p>
-            </div>
-            <div class="team-member">
-                <img src="images/aaron.jpg" alt="Aaron Wang" class="team-photo">
-                <h3>Aaron Wang</h3>
-                <p>Aaron Wang is an exceptionally talented mathematician and leader, with a proven track record of excellence and innovation in competitive mathematics, leadership roles, and business acumen. Selected for the prestigious Math Olympiad Program (MOP), Aaron is among the top 50 high school math students in the United States, showcasing Aaron's advanced problem-solving abilities and deep understanding of abstract mathematical concepts. This recognition reflects his technical skill and capacity to approach complex challenges creatively and systematically. In addition to his mathematical ability, Aaron also demonstrates exceptional leadership as Junior Senator at NCSSM, where he led outreach and campus improvement efforts and business-oriented skills as part of NCSSM’s DECA team. </p>
-            </div>
-            <div class="team-member">
-                <img src="images/han.jpg" alt="Han Lin" class="team-photo">
-                <h3>Han Lin</h3>
-                <p>As a current student of the North Carolina School of Science and Mathematics, Han is focused on applying his electrical engineering and CS skills for real-world impact. He was a member of the STEM Academy at the Johns Hopkins University Applied Physics Laboratory, the Beaver Works Program at MIT’s Lincoln Lab, and a current research intern at the Ni Lab of Duke University’s Pratt School of Engineering, focusing on the fabrication of mechanoacooustic sensors for monitoring physiological signals. Through Beaver Works, he’s contributed to several projects focusing on monitoring sleep apnea and multiple sclerosis. He was a former Congressional App Challenge winner, and a finalist for the Intel AI Global Changemakers Award. In his free time, he enjoys playing the piano, browning Wikipedia, and getting into late-night YouTube binges. </p>
-            </div>
-            <div class="team-member">
-                <img src="images/ankit.jpg" alt="Ankit Biswas" class="team-photo">
-                <h3>Ankit Biswas</h3>
-                <p>Ever since building his first cannon in third grade, Ankit has been a highly dedicated student researcher and education advocate. Aiming to help build and train the next generation of thinkers, scientists, and innovators through outreach and advocacy, he works to bring tutoring and mentorship to under-funded communities via his organization the Youth Research Initiative, which has reached 64k+ people around the world. As a youth researcher, he explores the furthest frontiers of the observable universe, from the faintest relics of local star formation to the most primordial galaxies. Coauthoring papers at some of the world’s largest universities, Ankit loves science–whether he’s independently finding elusive planets hunched over a computer at 3 AM or working with professors at various large research labs. Through his work, he has received notable accolades, including a Grand Prize at the International Science and Engineering Fair (ISEF), the Davidson Fellow scholarship, and being a Broadcom MASTERS Top Award winner. Both his scientific tutelage and research work towards his central goal–to help explore the terra incognita beyond the world’s map of knowledge. Whether he’s writing chapters or pulling down books from the highest shelves for others, Ankit hopes to inspire that very same third grader building their own bottle rocket all those years ago. </p>
+                </p>
             </div>
         </div>
     </section>
-
-    <section id="how-we-got-here" class="section">
-        <h2>How We Got Here</h2>
-        <p>
-            The idea for Reverbrix started during late-night brainstorming sessions in Aryaman’s room at NCSSM. His roommate, Om, has Misophonia, a condition that makes certain everyday sounds, like pen clicks or chewing noises, extremely distressing. Watching his roommate struggle to focus, relax, and even participate in social settings because of auditory triggers made us realize how much sound can affect someone’s daily life.
-        </p>
-        <p>
-            To cope, Om uses hearing aid-like devices that emit static to mask triggering frequencies. While these provide some relief, they’re not ideal. The constant static can be overwhelming, and they don’t target the specific frequencies that cause discomfort. This inspired us to ask: <em>“What if we could create a device that blocks out only the sounds you don’t want, while keeping the important ones?”</em>
-        </p>
-        <p>
-            Fueled by this question, we started brainstorming, researching, and prototyping. We used NCSSM’s resources, like 3D printers and coding tools, to build a product that combines selective active noise cancellation with machine learning and Bluetooth functionality. Through iterations, we’ve refined Reverbrix to be a personalized solution for people like Om and others facing similar challenges.
-        </p>
-        <p>
-            This isn’t just a project for us: it’s deeply personal. Reverbrix is our way of helping people regain control over their environments and improve their quality of life.
-        </p>
-    </section>
-
-    <section id="vision" class="section">
-        <h2>Our Vision for Impact</h2>
-        <table class="styled-table">
-            <tr>
-                <th>For Students</th>
-                <th>For Professionals</th>
-                <th>For Daily Life</th>
-            </tr>
-            <tr>
-                <td>
-                    Helps students with ADHD or Misophonia focus in noisy classrooms or study spaces.
-                </td>
-                <td>
-                    Reduces distractions in open-office environments or during remote work.
-                </td>
-                <td>
-                    Provides comfort and relief for anyone needing control over their auditory environment while also functioning as a high-quality Bluetooth headphone for everyday use.
-                </td>
-            </tr>
-        </table>
-    </section>
-
-    <section id="how-we-make-it-happen" class="section">
-        <h2>How We’ll Make it Happen</h2>
-        <table class="styled-table">
-            <tr>
-                <th>Crowdfunding</th>
-                <th>Medical Partnerships</th>
-                <th>FDA Approval</th>
-            </tr>
-            <tr>
-                <td>
-                    Launching a Kickstarter campaign to connect with early adopters and fund initial production.
-                </td>
-                <td>
-                    Collaborating with hospitals and tech firms to ensure Reverbrix meets healthcare standards.
-                </td>
-                <td>
-                    Applying for FDA approval to make Reverbrix accessible through insurance for people who need it most.
-                </td>
-            </tr>
-        </table>
-    </section>
-   
-    <section id="conclusion" class="section">
-        <p>
-            Reverbrix is more than just headphones - it’s a step toward a world where people can take control of their auditory experiences, find focus, and enjoy their environment. Whether you need a personalized sound solution or just a great pair of Bluetooth headphones, Reverbrix has you covered.
-        </p>
-    </section>
-
-    <footer class="footer">
-        <p>&copy; 2024 Reverbrix | Designed by NCSSM Team</p>
-    </footer>
+    
 </body>
 </html>
-
