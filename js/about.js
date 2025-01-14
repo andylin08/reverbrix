@@ -9,4 +9,20 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+let currentSlide = 1;
+const totalSlides = 5;
+
+function showSlide(slideNumber) {
+  document.getElementById(`btn-${slideNumber}`).checked = true;
+}
+
+function prevSlide() {
+  currentSlide = currentSlide === 1 ? totalSlides : currentSlide - 1;
+  showSlide(currentSlide);
+}
+
+function nextSlide() {
+  currentSlide = currentSlide === totalSlides ? 1 : currentSlide + 1;
+  showSlide(currentSlide);
+}
 

@@ -4,28 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
     <script src="js/index.js"></script>
-
-    <title>Homepage</title>
+    <title>Reverbrix</title>
 </head>
 <body>
-    <!-- Header Section -->
     <header class="main-header">
         <div class="container">
             <a href="#" class="logo">Reverbrix</a>
             <nav class="nav">
                 <ul class="nav-list">
                     <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#services">Services</a></li>
+                    <li><a href="#our-team">Our Team</a></li>
+                    <li><a href="#vision">Vision</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <a href="#get-started" class="cta-button">Get Started</a>
         </div>
     </header>
-
-    <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
             <h1>Reverbrix</h1>
@@ -33,8 +34,6 @@
             <a href="#learn-more" class="cta-button">Learn More</a>
         </div>
     </section>
-    
-    <!-- Meet Reverbrix Section -->
     <section class="features">
         <p class="section-subtitle animate-on-scroll">
             At its core, Reverbrix is designed to help people reclaim control over their environments and focus. For the 1.5 billion people globally experiencing auditory challenges, Reverbrix provides a way to manage their unique needs effectively.
@@ -78,6 +77,194 @@
             </div>
         </div>
     </section>
-    
+    <section id="our-team" class="banner animate-on-scroll">
+        <div class="banner-overlay">
+            <h2>Our Team</h2>
+            <p>
+                At Reverbrix, we are revolutionizing the way people connect with sound through innovative audio technology.
+            </p>
+        </div>
+    </section>   
+    <section class="meet-our-team animate-on-scroll" id="team">
+        <div class="team-container ">
+                <div class="slider">
+                  <button class="arrow arrow-left animate-on-scroll" onclick="prevSlide()">&#8249;</button>
+                  <button class="arrow arrow-right animate-on-scroll" onclick="nextSlide()">&#8250;</button>
+                    <input type="radio" name="toggle" id="btn-1" checked>
+                    <input type="radio" name="toggle" id="btn-2">
+                    <input type="radio" name="toggle" id="btn-3">
+                    <input type="radio" name="toggle" id="btn-4">  
+                    <input type="radio" name="toggle" id="btn-5">    
+                    <div class="slider-controls">
+                      <label for="btn-1"></label>
+                      <label for="btn-2"></label>
+                      <label for="btn-3"></label>
+                      <label for="btn-4"></label>
+                      <label for="btn-5"></label>
+                    </div>
+                  
+                    <ul class="slides animate-on-scroll">
+                      <li class="slide">
+                        <div class="slide-content">
+                          <h2 class="slide-title">Han Lin</h2>
+                          <p class="slide-text">As a current student of the North Carolina School of Science and Mathematics, Han is focused on applying his electrical engineering and CS skills for real-world impact. He was a member of the STEM Academy at the Johns Hopkins University Applied Physics Laboratory, the Beaver Works Program at MIT’s Lincoln Lab, and a current research intern at the Ni Lab of Duke University’s Pratt School of Engineering, focusing on the fabrication of mechanoacooustic sensors for monitoring physiological signals. Through Beaver Works, he’s contributed to several projects focusing on monitoring sleep apnea and multiple sclerosis. He was a former Congressional App Challenge winner, and a finalist for the Intel AI Global Changemakers Award. In his free time, he enjoys playing the piano, browning Wikipedia, and getting into late-night YouTube binges.</p>
+                        </div>
+                        <div class="slide-image">
+                          <img src="images/han.png" alt="stuff" width="400" height="400">
+                        </div>
+                      </li>
+                      <li class="slide">
+                        <div class="slide-content">
+                          <h2 class="slide-title">Aryaman (Doug) Shukla</h2>
+                          <p class="slide-text">Aryaman Shukla is an enthusiastic and self-driven engineering and technology student with a strong background in STEM, recognized nationally for scientific research and innovation. Currently attending the North Carolina School of Science and Mathematics, his expertise spans a wide range of STEM areas, including environmental science, data analysis, machine learning, and geospatial technology. Aryaman has made significant contributions to research, such as investigating protein folding anomalies related to Alzheimer's disease and analyzing environmental impacts of rising sea levels as part of NASA-funded projects. His work includes co-authoring research papers and leading technical projects with advanced computational tools. In addition to his academic achievements, Aryaman is a skilled musician, playing clarinet at an All-State level. Passionate about environmental advocacy, he has written op-eds on climate change published in outlets like the Winston-Salem Journal and The Asian Voice News. With a proven ability to combine technical skills, creativity, and leadership, Aryaman is an asset to the team, committed to tackling real-world challenges through innovative and impactful solutions.</p>
+                        </div>
+                        <div class="slide-image">
+                          <img src="images/aryaman.png" alt="stuff" width="400" height="400">
+                        </div>
+                      </li>
+                      <li class="slide">
+                        <div class="slide-content">
+                          <h2 class="slide-title">Troy Gordon</h2>
+                          <p class="slide-text">Troy Gordon finds his passion in robotics to solve problems. Having been a design team on his state's-winning robotics team, Troy discovered the importance of creativity and simplicity in accomplishing challenging tasks, and how to brainstorm effective ideas and communicate them through CAD (Computer Aided Design). Having an interest in the lowest levels of computation, Troy has also busied himself learning about Assembly, Computer Architecture, and Chip Designing. Troy also loves watching movies and sometimes knits.</p>
+                        </div>
+                        <div class="slide-image">
+                          <img src="images/troy.png" alt="stuff" width="400" height="400">
+                        </div>
+                      </li>
+                      <li class="slide">
+                        <div class="slide-content">
+                          <h2 class="slide-title">Aaron Wang</h2>
+                          <p class="slide-text">Aaron Wang is an exceptionally talented mathematician and leader, with a proven track record of excellence and innovation in competitive mathematics, leadership roles, and business acumen. Selected for the prestigious Math Olympiad Program (MOP), Aaron is among the top 50 high school math students in the United States, showcasing Aaron's advanced problem-solving abilities and deep understanding of abstract mathematical concepts. This recognition reflects his technical skill and capacity to approach complex challenges creatively and systematically. In addition to his mathematical ability, Aaron also demonstrates exceptional leadership as Junior Senator at NCSSM, where he led outreach and campus improvement efforts and business-oriented skills as part of NCSSM’s DECA team.</p>
+                        </div>
+                        <div class="slide-image">
+                          <img src="images/aaron.png" alt="stuff" width="400" height="400">
+                        </div>
+                      </li>
+                      <li class="slide">
+                        <div class="slide-content">
+                          <h2 class="slide-title">Ankit Biswas</h2>
+                          <p class="slide-text">Ever since building his first cannon in third grade, Ankit has been a highly dedicated student researcher and education advocate. Aiming to help build and train the next generation of thinkers, scientists, and innovators through outreach and advocacy, he works to bring tutoring and mentorship to under-funded communities via his organization the Youth Research Initiative, which has reached 64k+ people around the world. Coauthoring papers at some of the world’s largest universities, Ankit loves science–whether he’s independently finding elusive planets hunched over a computer at 3 AM or working with professors at various large research labs. Through his work, he has received notable accolades, including a Grand Prize at the International Science and Engineering Fair (ISEF), the Davidson Fellow scholarship, and being a Broadcom MASTERS Top Award winner. Both his scientific tutelage and research work towards his central goal–to help explore the terra incognita beyond the world’s map of knowledge. Whether he’s writing chapters or pulling down books from the highest shelves for others, Ankit hopes to inspire that very same third grader building their own bottle rocket all those years ago.</p>
+                        </div>
+                        <div class="slide-image">
+                          <img src="images/ankit.png" alt="stuff" width="400" height="400">
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </section> 
+              <section id="how-we-make-it-happen" class="section animate-on-scroll">
+                <h2>How We’ll Make it Happen</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card-icon">
+                            <img src="icons/crowdfunding.png" alt="Crowdfunding Icon">
+                        </div>
+                        <div class="card-content">
+                            <h3>Crowdfunding</h3>
+                            <p>
+                                Launching a Kickstarter campaign to connect with early adopters and fund initial production.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">
+                            <img src="icons/auditory.png" alt="Medical Partnerships Icon">
+                        </div>
+                        <div class="card-content">
+                            <h3>Medical Partnerships</h3>
+                            <p>
+                                Collaborating with hospitals and tech firms to ensure Reverbrix meets healthcare standards.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">
+                            <img src="icons/fda.png" alt="FDA Approval Icon">
+                        </div>
+                        <div class="card-content">
+                            <h3>FDA Approval</h3>
+                            <p>
+                                Applying for FDA approval to make Reverbrix accessible through insurance for people who need it most.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>             
+           <section class="howwegothere animate-on-scroll">
+             <h2>How We Got Here</h2>
+                <p>
+                  The idea for Reverbrix started during late-night brainstorming sessions in Aryaman’s room at NCSSM. His roommate, Om, has Misophonia, a condition that makes certain everyday sounds, like pen clicks or chewing noises, extremely distressing. Watching his roommate struggle to focus, relax, and even participate in social settings because of auditory triggers made us realize how much sound can affect someone’s daily life.
+  
+                  To cope, Om uses hearing aid-like devices that emit static to mask triggering frequencies. While these provide some relief, they’re not ideal. The constant static can be overwhelming, and they don’t target the specific frequencies that cause discomfort. This inspired us to ask: “What if we could create a device that blocks out only the sounds you don’t want, while keeping the important ones?”
+                  
+                  Fueled by this question, we started brainstorming, researching, and prototyping. We used NCSSM’s resources, like 3D printers and coding tools, to build a product that combines selective active noise cancellation with machine learning and Bluetooth functionality. Through iterations, we’ve refined Reverbrix to be a personalized solution for people like Om and others facing similar challenges.
+  
+                  This isn’t just a project for us: it’s deeply personal. Reverbrix is our way of helping people regain control over their environments and improve their quality of life.
+                </p>
+            </section>
+            <section id="vision" class="section animate-on-scroll">
+              <h2>Our Vision for Impact</h2>
+              <div class="card-container">
+                  <div class="card">
+                      <div class="card-icon">
+                          <img src="icons/student.png" alt="Students Icon">
+                      </div>
+                      <div class="card-content">
+                          <h3>For Students</h3>
+                          <p>
+                              Helps students with ADHD or Misophonia focus in noisy classrooms or study spaces.
+                          </p>
+                      </div>
+                  </div>
+                  <div class="card">
+                      <div class="card-icon">
+                          <img src="icons/teacher.png" alt="Professionals Icon">
+                      </div>
+                      <div class="card-content">
+                          <h3>For Professionals</h3>
+                          <p>
+                              Reduces distractions in open-office environments or during remote work.
+                          </p>
+                      </div>
+                  </div>
+                  <div class="card">
+                      <div class="card-icon">
+                          <img src="icons/people.png" alt="Daily Life Icon">
+                      </div>
+                      <div class="card-content">
+                          <h3>For Daily Life</h3>
+                          <p>
+                              Provides comfort and relief for anyone needing control over their auditory environment while also functioning as a high-quality Bluetooth headphone for everyday use.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </section>       
+          <section id="contact" class="contact-section animate-on-scroll">
+            <div class="contact-container">
+                <h2>Contact Us</h2>
+                <p>Reach out to us through the following email addresses based on your needs:</p>
+                <div class="email-list">
+                    <div class="email-item">
+                        <h3>General Inquiries</h3>
+                        <p>Email: <a href="mailto:info@reverbrix.com">info@reverbrix.com</a></p>
+                    </div>
+                    <div class="email-item">
+                        <h3>Support</h3>
+                        <p>Email: <a href="mailto:support@reverbrix.com">support@reverbrix.com</a></p>
+                    </div>
+                    <div class="email-item">
+                        <h3>Partnerships</h3>
+                        <p>Email: <a href="mailto:partnerships@reverbrix.com">partnerships@reverbrix.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-bottom animate-on-scroll">
+                <p>&copy; 2025 Reverbrix. All rights reserved.</p>
+            </div>
+        </footer>
 </body>
 </html>
